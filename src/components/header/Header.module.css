@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: #211F54;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  transition: all 0.5s linear;
+}
+
+.nav-link:hover {
+  color: #211aeb;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn p {
+  color: #211F54;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px;
+}
+
+.btn button {
+  border-radius: 14px;
+  background: #0075FF;
+  padding: 19px 24px;
+  cursor: pointer;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  transition: all 0.5s linear;
+}
+
+.btn button:hover {
+  background: #211F54;
+}
+
+.bars {
+  display: none;
+}
+
+
+@media (max-width: 985px) {
+  .bars {
+    display: block;
+  }
+
+  .bars img {
+    width: 50px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+}

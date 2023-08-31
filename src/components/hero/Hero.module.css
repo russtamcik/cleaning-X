@@ -1,0 +1,93 @@
+#hero_section {
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  max-width: 518px;
+  color: #211F54;
+  font-family: Roboto;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+p {
+  max-width: 591px;
+  color: #6E7191;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+}
+
+.call img {
+  width: 72px;
+}
+
+.contact button {
+  padding: 26px 38px;
+  border-radius: 14px;
+  background: #0075FF;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.contact button:hover {
+  background-color: #211F54;
+}
+
+.num {
+  color: #211F54;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.text h5 {
+  color: #6E7191;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.right img{
+  width: 100%;
+}
+
+@media (max-width: 985px) {
+  section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
